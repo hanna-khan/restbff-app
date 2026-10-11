@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="REST Foundation gallery - school visits, crafts, student work, courses, and community videos.">
+    <title>Gallery - REST Foundation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Instrument+Sans:wght@400..700&family=Noto+Naskh+Arabic:wght@400..700&display=swap">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <a href="../index.html"><img src="../images/logo.png" alt="REST Foundation Logo" class="logo"></a>
+                </div>
+                <nav class="main-nav" aria-label="Primary">
+                    <ul class="nav-menu">
+                        <li><a href="../index.html" data-key="nav_home">Home</a></li>
+                        <li><a href="about.html" data-key="nav_about">About Us</a></li>
+                        <li><a href="services.html" data-key="nav_services">Services</a></li>
+                        <li><a href="gallery.html" class="active" data-key="nav_gallery">Gallery</a></li>
+                        <li><a href="contact.html" data-key="nav_contact">Contact</a></li>
+                        <li><a href="get-involved.html" data-key="nav_get_involved">Get Involved</a></li>
+                    </ul>
+                    <div class="header-actions">
+                        <div class="lang-switcher">
+                            <button class="btn-lang" data-lang="en" type="button">EN</button>
+                            <button class="btn-lang" data-lang="ur" type="button">اردو</button>
+                        </div>
+                        <a href="https://www.zeffy.com/en-US/donation-form/ready-to-help-families-escape-generational-poverty" class="btn btn-accent" data-key="donate_btn">Donate Now</a>
+                        <button class="hamburger" type="button" aria-label="Open menu">
+                            <span></span><span></span><span></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="main-content" class="page-header">
+        <div class="container">
+            <h1 data-key="gallery_page_title">Impact Gallery</h1>
+            <p data-key="gallery_page_subtitle">Crafts, school visits, flyers, and videos from our community programs</p>
+        </div>
+    </section>
+
+    <section class="gallery-preview" id="gallery">
+        <div class="container">
+            <div class="gallery-filters" role="tablist" aria-label="Gallery categories">
+                <button class="gallery-filter active" type="button" data-filter="all" data-key="filter_all">All</button>
+                <button class="gallery-filter" type="button" data-filter="school-visits" data-key="cat_school">School Visits</button>
+                <button class="gallery-filter" type="button" data-filter="resin-art" data-key="cat_resin">Resin Art</button>
+                <button class="gallery-filter" type="button" data-filter="crochet" data-key="cat_crochet">Crochet</button>
+                <button class="gallery-filter" type="button" data-filter="children-logos" data-key="cat_logos">Children's Logos</button>
+                <button class="gallery-filter" type="button" data-filter="calligraphy" data-key="cat_calligraphy">Calligraphy</button>
+                <button class="gallery-filter" type="button" data-filter="flyers" data-key="cat_flyers">Flyers</button>
+                <button class="gallery-filter" type="button" data-filter="videos" data-key="cat_videos">Videos</button>
+            </div>
+
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- School Visits -->
+                <button type="button" class="gallery-card" data-category="school-visits" data-src="../images/school-visits/school-2026-04-30-at-2.45.15-am.jpeg" data-label="School Visits" id="school-visits">
+                    <img src="../images/school-visits/school-2026-04-30-at-2.45.15-am.jpeg" alt="School visit moment" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_school">School Visits</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="school-visits" data-src="../images/school-visits/school-2026-04-30-at-2.45.16-am.jpeg" data-label="School Visits">
+                    <img src="../images/school-visits/school-2026-04-30-at-2.45.16-am.jpeg" alt="Students during school visit" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_school">School Visits</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="school-visits" data-src="../images/school-visits/school-2026-04-30-at-2.45.16-am-1.jpeg" data-label="School Visits">
+                    <img src="../images/school-visits/school-2026-04-30-at-2.45.16-am-1.jpeg" alt="Classroom engagement" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_school">School Visits</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="school-visits" data-src="../images/school-visits/school-2026-04-30-at-2.45.16-am-2.jpeg" data-label="School Visits">
+                    <img src="../images/school-visits/school-2026-04-30-at-2.45.16-am-2.jpeg" alt="Community school visit" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_school">School Visits</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="school-visits" data-src="../images/school-visits/school-2026-04-30-at-2.45.17-am.jpeg" data-label="School Visits">
+                    <img src="../images/school-visits/school-2026-04-30-at-2.45.17-am.jpeg" alt="Learning activity" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_school">School Visits</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="school-visits" data-src="../images/school-visits/school-2026-04-30-at-2.45.17-am-1.jpeg" data-label="School Visits">
+                    <img src="../images/school-visits/school-2026-04-30-at-2.45.17-am-1.jpeg" alt="Students smiling at school visit" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_school">School Visits</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="school-visits" data-src="../images/school-visits/school-2026-04-30-at-2.45.18-am.jpeg" data-label="School Visits">
+                    <img src="../images/school-visits/school-2026-04-30-at-2.45.18-am.jpeg" alt="Group activity" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_school">School Visits</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="school-visits" data-src="../images/school-visits/school-2026-04-30-at-2.45.18-am-1.jpeg" data-label="School Visits">
+                    <img src="../images/school-visits/school-2026-04-30-at-2.45.18-am-1.jpeg" alt="School outreach" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_school">School Visits</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="school-visits" data-src="../images/school-visits/school-2026-04-30-at-2.45.19-am.jpeg" data-label="School Visits">
+                    <img src="../images/school-visits/school-2026-04-30-at-2.45.19-am.jpeg" alt="School visit highlight" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_school">School Visits</span>
+                </button>
+
+                <!-- Resin Art -->
+                <button type="button" class="gallery-card" data-category="resin-art" data-src="../images/resin-art/resin-alishba-2026-06-10-at-10.08.19-am.jpeg" data-label="Resin Art by Alishba" id="resin-art">
+                    <img src="../images/resin-art/resin-alishba-2026-06-10-at-10.08.19-am.jpeg" alt="Resin art by Alishba" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_resin">Resin Art</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="resin-art" data-src="../images/resin-art/resin-art-2026-07-14-at-2.07.55-am.jpeg" data-label="Resin Art">
+                    <img src="../images/resin-art/resin-art-2026-07-14-at-2.07.55-am.jpeg" alt="Colorful resin artwork" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_resin">Resin Art</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="resin-art" data-src="../images/resin-art/resin-art-2026-07-14-at-2.15.07-am.jpeg" data-label="Resin Art">
+                    <img src="../images/resin-art/resin-art-2026-07-14-at-2.15.07-am.jpeg" alt="Resin craft piece" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_resin">Resin Art</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="resin-art" data-src="../images/resin-art/resin-art-2026-07-14-at-2.15.07-am-2.jpeg" data-label="Resin Art">
+                    <img src="../images/resin-art/resin-art-2026-07-14-at-2.15.07-am-2.jpeg" alt="Finished resin project" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_resin">Resin Art</span>
+                </button>
+
+                <!-- Crochet -->
+                <button type="button" class="gallery-card" data-category="crochet" data-src="../images/crochet/crochet-handbag-2026-07-13-at-9.03.54-pm.jpeg" data-label="Crochet Handbag" id="crochet">
+                    <img src="../images/crochet/crochet-handbag-2026-07-13-at-9.03.54-pm.jpeg" alt="Crochet handbag" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_crochet">Crochet</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="crochet" data-src="../images/crochet/crochet-2026-07-03-at-10.41.12-am.jpeg" data-label="Crochet">
+                    <img src="../images/crochet/crochet-2026-07-03-at-10.41.12-am.jpeg" alt="Crochet crafts" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_crochet">Crochet</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="crochet" data-src="../images/crochet/crochet-1-2026-07-13-at-9.03.54-pm.jpeg" data-label="Crochet">
+                    <img src="../images/crochet/crochet-1-2026-07-13-at-9.03.54-pm.jpeg" alt="Handmade crochet item" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_crochet">Crochet</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="crochet" data-src="../images/crochet/crochet-2026-07-13-at-9.03.54-pm.jpeg" data-label="Crochet">
+                    <img src="../images/crochet/crochet-2026-07-13-at-9.03.54-pm.jpeg" alt="Crochet project" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_crochet">Crochet</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="crochet" data-src="../images/crochet/crochet-2026-07-13-at-9.03.55-pm.jpeg" data-label="Crochet">
+                    <img src="../images/crochet/crochet-2026-07-13-at-9.03.55-pm.jpeg" alt="Creative crochet work" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_crochet">Crochet</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="crochet" data-src="../images/crochet/crochet-2026-07-13-at-9.03.55-pm-2.jpeg" data-label="Crochet">
+                    <img src="../images/crochet/crochet-2026-07-13-at-9.03.55-pm-2.jpeg" alt="Crochet collection" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_crochet">Crochet</span>
+                </button>
+
+                <!-- Children Logos -->
+                <button type="button" class="gallery-card" data-category="children-logos" data-src="../images/children-logos/logo1-2026-07-03-at-10.39.37-am.jpeg" data-label="Children's Logo" id="children-logos">
+                    <img src="../images/children-logos/logo1-2026-07-03-at-10.39.37-am.jpeg" alt="Logo designed by a child" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_logos">Children's Logos</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="children-logos" data-src="../images/children-logos/logo2-2026-07-03-at-10.39.36-am.jpeg" data-label="Children's Logo">
+                    <img src="../images/children-logos/logo2-2026-07-03-at-10.39.36-am.jpeg" alt="Student logo design" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_logos">Children's Logos</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="children-logos" data-src="../images/children-logos/logo3-2026-06-22-at-2.26.53-pm.jpeg" data-label="Children's Logo">
+                    <img src="../images/children-logos/logo3-2026-06-22-at-2.26.53-pm.jpeg" alt="Creative children's logo" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_logos">Children's Logos</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="children-logos" data-src="../images/children-logos/logo4-2026-06-22-at-2.26.53-pm.jpeg" data-label="Children's Logo">
+                    <img src="../images/children-logos/logo4-2026-06-22-at-2.26.53-pm.jpeg" alt="Hand-drawn logo by children" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_logos">Children's Logos</span>
+                </button>
+
+                <!-- Calligraphy -->
+                <button type="button" class="gallery-card" data-category="calligraphy" data-src="../images/calligraphy/caligraphy-2026-07-18-at-2.23.38-am.jpeg" data-label="Calligraphy" id="calligraphy">
+                    <img src="../images/calligraphy/caligraphy-2026-07-18-at-2.23.38-am.jpeg" alt="Calligraphy artwork" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_calligraphy">Calligraphy</span>
+                </button>
+
+                <!-- Flyers -->
+                <button type="button" class="gallery-card" data-category="flyers" data-src="../flyers/courses1-2026-06-17-at-12.28.27-am.jpeg" data-label="Course Flyer" id="flyers">
+                    <img src="../flyers/courses1-2026-06-17-at-12.28.27-am.jpeg" alt="Course flyer 1" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_flyers">Flyers</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="flyers" data-src="../flyers/course2-2026-06-16-at-11.27.08-pm.jpeg" data-label="Course Flyer">
+                    <img src="../flyers/course2-2026-06-16-at-11.27.08-pm.jpeg" alt="Course flyer 2" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_flyers">Flyers</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="flyers" data-src="../flyers/courses3-2026-06-16-at-7.23.06-am.jpeg" data-label="Course Flyer">
+                    <img src="../flyers/courses3-2026-06-16-at-7.23.06-am.jpeg" alt="Course flyer 3" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_flyers">Flyers</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="flyers" data-src="../flyers/courses4-2026-06-13-at-12.17.23-pm.jpeg" data-label="Course Flyer">
+                    <img src="../flyers/courses4-2026-06-13-at-12.17.23-pm.jpeg" alt="Course flyer 4" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_flyers">Flyers</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="flyers" data-src="../flyers/courses5-2026-06-13-at-12.17.23-pm.jpeg" data-label="Course Flyer">
+                    <img src="../flyers/courses5-2026-06-13-at-12.17.23-pm.jpeg" alt="Course flyer 5" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_flyers">Flyers</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="flyers" data-src="../flyers/courses6-2026-06-13-at-12.16.59-pm.jpeg" data-label="Course Flyer">
+                    <img src="../flyers/courses6-2026-06-13-at-12.16.59-pm.jpeg" alt="Course flyer 6" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_flyers">Flyers</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="flyers" data-src="../flyers/purification-and-hygiene-2026-07-07-at-2.32.49-am.jpeg" data-label="Hygiene Flyer">
+                    <img src="../flyers/purification-and-hygiene-2026-07-07-at-2.32.49-am.jpeg" alt="Purification and hygiene flyer" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_flyers">Flyers</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="flyers" data-src="../flyers/rts1-2026-07-13-at-1.02.24-pm.jpeg" data-label="Ready to Serve">
+                    <img src="../flyers/rts1-2026-07-13-at-1.02.24-pm.jpeg" alt="Ready to Serve flyer 1" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_flyers">Flyers</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="flyers" data-src="../flyers/rts2-2026-07-13-at-1.02.23-pm.jpeg" data-label="Ready to Serve">
+                    <img src="../flyers/rts2-2026-07-13-at-1.02.23-pm.jpeg" alt="Ready to Serve flyer 2" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_flyers">Flyers</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="flyers" data-src="../flyers/rts3-2026-07-13-at-1.02.23-pm.jpeg" data-label="Ready to Serve">
+                    <img src="../flyers/rts3-2026-07-13-at-1.02.23-pm.jpeg" alt="Ready to Serve flyer 3" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_flyers">Flyers</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="flyers" data-src="../flyers/rts4-2026-07-13-at-1.02.23-pm.jpeg" data-label="Ready to Serve">
+                    <img src="../flyers/rts4-2026-07-13-at-1.02.23-pm.jpeg" alt="Ready to Serve flyer 4" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_flyers">Flyers</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="flyers" data-src="../flyers/rts5-2026-07-13-at-1.02.22-pm.jpeg" data-label="Ready to Serve">
+                    <img src="../flyers/rts5-2026-07-13-at-1.02.22-pm.jpeg" alt="Ready to Serve flyer 5" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_flyers">Flyers</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="flyers" data-src="../flyers/rts6-2026-07-13-at-1.02.22-pm.jpeg" data-label="Ready to Serve">
+                    <img src="../flyers/rts6-2026-07-13-at-1.02.22-pm.jpeg" alt="Ready to Serve flyer 6" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_flyers">Flyers</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="flyers" data-src="../flyers/rts7-2026-07-13-at-1.02.22-pm.jpeg" data-label="Ready to Serve">
+                    <img src="../flyers/rts7-2026-07-13-at-1.02.22-pm.jpeg" alt="Ready to Serve flyer 7" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_flyers">Flyers</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="flyers" data-src="../flyers/rts8-2026-07-13-at-1.02.21-pm.jpeg" data-label="Ready to Serve">
+                    <img src="../flyers/rts8-2026-07-13-at-1.02.21-pm.jpeg" alt="Ready to Serve flyer 8" loading="lazy">
+                    <span class="gallery-card-label" data-key="cat_flyers">Flyers</span>
+                </button>
+
+                <!-- Videos -->
+                <button type="button" class="gallery-card" data-category="videos" data-type="video" data-src="../videos/video-2026-04-30-at-2.43.44-am.mp4" data-label="Community Visit" id="videos">
+                    <video muted preload="metadata" poster="../images/school-visits/school-2026-04-30-at-2.45.15-am.jpeg">
+                        <source src="../videos/video-2026-04-30-at-2.43.44-am.mp4" type="video/mp4">
+                    </video>
+                    <span class="gallery-card-label" data-key="cat_videos">Videos</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="videos" data-type="video" data-src="../videos/video-2026-04-30-at-2.43.44-am-1.mp4" data-label="Workshop Moments">
+                    <video muted preload="metadata" poster="../images/school-visits/school-2026-04-30-at-2.45.18-am.jpeg">
+                        <source src="../videos/video-2026-04-30-at-2.43.44-am-1.mp4" type="video/mp4">
+                    </video>
+                    <span class="gallery-card-label" data-key="cat_videos">Videos</span>
+                </button>
+                <button type="button" class="gallery-card" data-category="videos" data-type="video" data-src="../flyers/bead-art-2026-06-16-at-7.22.53-am.mp4" data-label="Bead Art Workshop">
+                    <video muted preload="metadata" poster="../flyers/courses3-2026-06-16-at-7.23.06-am.jpeg">
+                        <source src="../flyers/bead-art-2026-06-16-at-7.22.53-am.mp4" type="video/mp4">
+                    </video>
+                    <span class="gallery-card-label" data-key="cat_videos">Videos</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="students-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title centered" data-key="students_title">Student Spotlights</h2>
+                <p class="section-subtitle centered" data-key="students_subtitle">Learners building skills across resin art, crochet, web development, and AI.</p>
+            </div>
+            <div class="students-grid">
+                <article class="student-card">
+                    <div class="student-card-icon"><i class="fas fa-palette" aria-hidden="true"></i></div>
+                    <h3 data-key="students_resin_title">Resin Art</h3>
+                    <ul>
+                        <li>Kousar Irshab</li>
+                        <li>Alishba Nasir</li>
+                        <li>Mueeba</li>
+                    </ul>
+                </article>
+                <article class="student-card">
+                    <div class="student-card-icon"><i class="fas fa-shirt" aria-hidden="true"></i></div>
+                    <h3 data-key="students_crochet_title">Creative Crochets</h3>
+                    <ul>
+                        <li>Eman</li>
+                        <li>Maryam Nasir</li>
+                        <li>Pakiza</li>
+                    </ul>
+                </article>
+                <article class="student-card">
+                    <div class="student-card-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
+                    <h3 data-key="students_web_title">Web Development</h3>
+                    <ul>
+                        <li>Shahzain</li>
+                        <li>Yousra</li>
+                    </ul>
+                </article>
+                <article class="student-card">
+                    <div class="student-card-icon"><i class="fas fa-robot" aria-hidden="true"></i></div>
+                    <h3 data-key="students_ai_title">Artificial Intelligence</h3>
+                    <ul>
+                        <li>Areej</li>
+                        <li>Warisha Batool</li>
+                        <li>Anshara</li>
+                        <li>Wania</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 data-key="cta_final_title">Ready to Transform Your Future?</h2>
+                <p data-key="cta_final_text">Join thousands of entrepreneurs who have built successful businesses with our support.</p>
+                <a href="https://www.zeffy.com/en-US/donation-form/ready-to-help-families-escape-generational-poverty" class="btn btn-light" data-key="donate_btn">Donate Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="../images/logo.png" alt="REST Foundation" class="footer-logo">
+                    <p class="footer-description" data-key="footer_description">
+                        Empowering communities through accessible microfinance solutions and comprehensive support services.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 data-key="footer_quick_links">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html" data-key="nav_home">Home</a></li>
+                        <li><a href="about.html" data-key="nav_about">About Us</a></li>
+                        <li><a href="services.html" data-key="nav_services">Services</a></li>
+                        <li><a href="gallery.html" data-key="nav_gallery">Gallery</a></li>
+                        <li><a href="contact.html" data-key="nav_contact">Contact</a></li>
+                        <li><a href="privacy.html" data-key="nav_privacy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 data-key="footer_services">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html#group" data-key="service_microloans_title">Microloans</a></li>
+                        <li><a href="services.html#agriculture" data-key="service_group_title">Group Lending</a></li>
+                        <li><a href="services.html#housing" data-key="housing_detail_title">Savings Programs</a></li>
+                        <li><a href="services.html#education" data-key="service_education_title">Financial Education</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 data-key="footer_contact_info">Contact Info</h3>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                            <span data-key="contact_address">REST Foundation 6777 Engle Rd M, Middleburg Heights, OH 44130 United States</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone" aria-hidden="true"></i>
+                            <span data-key="contact_phone_details">United States: 216-770-9916<br>Pakistan: +923700268276</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-key="footer_bottom">&copy; 2025 REST Foundation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Media preview" hidden>
+        <div class="lightbox-inner">
+            <button class="lightbox-close" type="button" aria-label="Close"><i class="fas fa-times" aria-hidden="true"></i></button>
+            <button class="lightbox-nav prev" type="button" aria-label="Previous"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
+            <button class="lightbox-nav next" type="button" aria-label="Next"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+            <div class="lightbox-media"></div>
+            <p class="lightbox-caption"></p>
+        </div>
+    </div>
+
+    <script src="../js/translations.js"></script>
+    <script src="../js/i18n-extend.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/ui-enhance.js"></script>
+    <script src="../js/gallery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="../js/motion.js"></script>
+</body>
+</html>
